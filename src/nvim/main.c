@@ -236,7 +236,7 @@ int main(int argc, char **argv)
   }
 #endif
 
-  argv0 = argv[0];
+  argv0 = argv[0]; // pointer to program name
 
   char_u *fname = NULL;   // file name from command line
   mparm_T params;         // various parameters passed between

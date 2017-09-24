@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.7)
 project(nvim)
 
+# cmake policy link: https://cmake.org/cmake/help/v3.9/manual/cmake-policies.7.html
+# explicitly use old,ignore warning
 if(POLICY CMP0059)
   cmake_policy(SET CMP0059 OLD)  # Needed until cmake 2.8.12. #4389
 endif()
